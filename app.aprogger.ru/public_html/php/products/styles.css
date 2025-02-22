@@ -1,0 +1,14 @@
+table {
+    background: #808080;
+    border: 2px solid rgd(0,0,0);
+    border-collapse: collapse;
+}
+
+thead {
+    background: #006400;
+    color: white;
+}
+
+td {
+    padding-right: 10px;
+}

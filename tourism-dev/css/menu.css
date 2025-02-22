@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Times New Roman', arial, sans-serif;
+    color: var(--black);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,39,153,1) 0%, rgba(193,107,175,1) 91%, rgba(230,41,159,1) 100%);
+}
+
+:root {
+    --default: #FF9900;
+    --hover: #FFB84D;
+    --active: #E1670E;
+    --green: #97EE3F;
+    --white: #FFFFFF;
+    --silver: #CACACA;
+    --background: rgba(0, 0, 0, 0.1);
+    --silver-3: #666666;
+    --silver-4: #414141;
+    --black: #000000;
+    --background-white: rgb(255, 255, 255);
+    --text-back: rgba(0, 0, 0, 0.5);
+}
+
+.visually-hidden {
+    position: absolute;
+    padding: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+
+.container {
+    padding: 0 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.descr-reset {
+    margin: 0;
+}
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.reset-heading {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    align-items: center;
+    background-color: var(--black);
+}
+
+.nav-list {
+    /* overflow-y:scroll; */
+    gap: 50px;
+}
+
+.nav-list__link {
+    color: var(--white);
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list__link:hover {
+    color: var(--default);
+}
+
+
+.nav-list__link:active {
+    color: var(--hover);
+
+}
+
+.header {
+    padding-top: 50px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.hero-heading {
+    font-size: 32px;
+    color: var(--active);
+}
+
+.hero {
+    padding-top: 50px;
+}
+
+.hero-sescription {
+    font-size: 25px;
+    color: var(--white);
+}
+
+.nav-list__svg {
+    margin-right: 5px;
+}
+
+.nav-list__item {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*=========================ABOUT==========================*/
+
+.column {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

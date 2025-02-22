@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Compressor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>File Compressor</h1>
+    <form id="file-form">
+      <input type="file" id="file-input" multiple>
+      <button type="submit">Compress Files</button>
+    </form>
+    <div id="progress-container"></div>
+    <div id="compressed-files"></div>
+    <button id="download-btn" disabled>Download Compressed Files</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

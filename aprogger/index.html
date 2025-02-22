@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta name="description"
+            content="Адаптивная верстка сайтов по макету, доступные цены. Заказать верстку сайта: мобильную, резиновую. аренда хостинга от 90/месяц">
+        <meta property="og:title"
+            content="Разработка сайтов, заказать верстку сайта HTML CSS — цена, аренда хостинга от 90/месяц">
+        <link rel="stylesheet" href="access/css/normalize.css">
+        <link rel="stylesheet" href="access/css/main.css">
+        <link rel="stylesheet" href="access/css/animate.min.css">
+        <link rel="stylesheet" href="access/css/media.css">
+        <link rel="shortcut icon" href="access/img/logo-w.svg" type="image/x-icon" />
+        <title>Заказать верстку сайта HTML CSS — цена</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="access/js/Element-scrollIntoView.js" defer></script>
+        <script src="access/js/app.js" defer></script>
+        <script src="access/js/console.js" defer></script>
+        <script src="access/js/color-scheme.js" defer></script>
+    </head>
+    <body class="body">
+        <nav class="nav">
+            <div class="container">
+                <div class="header-wrapp">
+                  <div class="flex space-between">  <a class="header__link" href="#"> <img class="header__logo" src="access/img/Frame 4.svg" alt="logo"></a>
+                    <button type="submit" class="burger" aria-label="Открыть меню">
+                        <span class="burger__line" aria-hidden="true"></span>
+                        <span class="burger__line" aria-hidden="true"></span>
+                        <span class="burger__line" aria-hidden="true"></span>
+                    </button></div>
+<div class="nav-wrap">
+    <div class="header-left-section">
+    <ul class="nav-list-section list-reset">
+        <li class="nav-list-section__item"><a class="nav-list-section__link" href="#price">Услуги</a></li>
+        <li class="nav-list-section__item"><a class="nav-list-section__link" href="#about">Обо мне</a></li>
+        <li class="nav-list-section__item"><a class="nav-list-section__link" href="#">Вопрос-ответ</a></li>
+        <li class="nav-list-section__item"><a class="nav-list-section__link" href="#contacts">Контакты</a></li>
+    </ul>
+</div>
+
+<div class="column-wrapper flex column"> 
+    <div class="center-section"> 
+        <button class="header__btn">Рассчитать стоимость</button>
+        <button class="header__btn back-btn">Заказать звонок</button>
+       <div id="form-container" class="form-container">
+        <div id="popup" class="popup">
+            <span id="closeButton">&times;</span>
+             <form id="form" class="back-form flex column center" method="POST">
+                 <h3 class="back-form__title reset-heading flex center">Оставьте заявку</h3>
+                 <p class="back-form__description flex center">И я свяжусь с вами в течение рабочего дня</p>
+                 <input required aria-label="Имя" class="back-form__form-info name" type="text" name="header-form__name" placeholder="Имя*">
+                 <input required aria-label="Телефон" class="back-form__form-info name"  type="phone" name="header-form__phone" placeholder="Телефон*">
+                 <input required aria-label="Электронная почта" class="back-form__form-info mail" type="email" name="header-form__email"  placeholder="E-mail*">
+                 <button aria-label="Отправить" class="back-form__send-btn" type="submit">Отправить</button>
+                        </form>
+</div>
+       </div>
+    </div>
+    <ul class="center-section__list list-reset flex">
+        <li class="center-section__list-item">
+            <a aria-label="Вконтакте" class="header__social-link" href="https://vk.com/a_arbuzov1503" target="blank">
+                <svg class="header__social-icon" width="60"
+                    height="60" viewBox="0 0 60 60"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path class="header__social-ico"
+                        d="M30 0C13.432 0 0 13.4314 0 30C0 46.5686 13.432 60 30 60C46.568 60 60 46.5686 60 30C60 13.4314 46.568 0 30 0ZM45.2176 33.2446C46.6159 34.6103 48.0951 35.8957 49.3504 37.4026C49.9065 38.0692 50.4307 38.7585 50.8297 39.5337C51.3993 40.6392 50.8849 41.8515 49.8954 41.9171L43.7494 41.9159C42.162 42.0473 40.8988 41.4071 39.8339 40.3218C38.9837 39.457 38.195 38.5332 37.3762 37.6389C37.0416 37.2718 36.6893 36.9262 36.2695 36.6543C35.4316 36.1093 34.7036 36.2762 34.2236 37.1515C33.7344 38.0421 33.6227 39.0292 33.5761 40.0205C33.5092 41.4697 33.0721 41.8484 31.618 41.9165C28.5109 42.062 25.5628 41.5906 22.8227 40.0241C20.4055 38.6425 18.5346 36.6924 16.9043 34.4845C13.7297 30.1805 11.2984 25.4566 9.11386 20.597C8.6222 19.5026 8.98189 18.917 10.1893 18.8943C12.1952 18.8557 14.2011 18.8606 16.2071 18.8925C17.0234 18.9054 17.5636 19.3725 17.8772 20.1428C18.9612 22.8098 20.2901 25.3473 21.9554 27.7007C22.3992 28.3274 22.8522 28.9522 23.4973 29.3948C24.2093 29.8834 24.7519 29.7219 25.0877 28.9271C25.3025 28.4219 25.3952 27.8817 25.4418 27.3404C25.6014 25.486 25.6205 23.6323 25.3442 21.7854C25.1724 20.6296 24.5224 19.8832 23.3702 19.6647C22.7834 19.5536 22.8694 19.3363 23.1548 19.0011C23.6501 18.4217 24.1142 18.0632 25.0416 18.0632L31.9857 18.062C33.0801 18.2768 33.3256 18.7679 33.4742 19.8703L33.4803 27.5871C33.4674 28.0137 33.6945 29.2782 34.4606 29.5574C35.0744 29.76 35.4795 29.2677 35.8465 28.8792C37.5118 27.112 38.6983 25.0263 39.7608 22.8675C40.2298 21.9155 40.6343 20.9303 41.0271 19.9433C41.3193 19.2135 41.7735 18.8544 42.5972 18.8667L49.2841 18.8747C49.4811 18.8747 49.6812 18.8765 49.8764 18.9103C51.0034 19.103 51.3121 19.5879 50.9635 20.6873C50.4147 22.4145 49.3485 23.8533 48.3063 25.2958C47.1892 26.8401 45.9977 28.3304 44.8917 29.8815C43.8752 31.2994 43.9556 32.0133 45.2176 33.2446Z"
+                        fill="#FFF" />
+                </svg>
+            </a>
+        </li>
+        <li class="center-section__list-item"><a
+                class="header__social-link"
+                aria-label="Телеграм"
+                href="https://t.me/a_arbuzov1503">
+                <svg class="header__social-icon"
+                    id="Layer_1"
+                    style="enable-background:new 0 0 24 24;"
+                    version="1.1" viewBox="0 0 24 24"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path class="st0"
+                        d="M21.974,3.116c-0.218-0.184-0.519-0.236-0.786-0.13L2.244,10.413c-0.298,0.117-0.492,0.399-0.494,0.719  c-0.001,0.32,0.189,0.605,0.486,0.725l4.3,1.738l2.082,5.709c0.076,0.197,0.229,0.356,0.417,0.434  c0.04,0.018,0.082,0.016,0.123,0.026c0.034,0.017,0.064,0.043,0.105,0.043c0.013,0,0.021-0.012,0.033-0.014  c0.021,0.002,0.042,0.014,0.063,0.014c0.193,0,0.38-0.072,0.529-0.212l2.492-2.363l5.159,3.69c0.134,0.096,0.292,0.145,0.451,0.145  c0.096,0,0.191-0.018,0.283-0.053c0.245-0.096,0.424-0.307,0.478-0.565l3.481-16.582C22.292,3.589,22.192,3.3,21.974,3.116z   M7.041,13.521l8.226-4.535l-6.172,5.523c-0.001,0.001,0,0.003-0.001,0.003c-0.048,0.046-0.08,0.108-0.08,0.18v0.014  c0,0.001-0.002,0.002-0.001,0.004c0,0.001,0.001,0.002,0.001,0.003v4.216L7.041,13.521z M9.545,19.232  c-0.011,0.01-0.022,0.013-0.033,0.021v-4.071l2.453,1.754L9.545,19.232z M18.263,20.348c-0.02,0.093-0.082,0.167-0.17,0.202  c-0.088,0.034-0.183,0.023-0.262-0.033l-5.286-3.78c-0.001-0.001,0-0.002-0.001-0.003c-0.002-0.002-0.005-0.001-0.008-0.003  L9.66,14.673l7.581-6.783c0.095-0.085,0.111-0.228,0.038-0.331c-0.074-0.105-0.214-0.136-0.325-0.074L6.716,13.129l-4.293-1.736  c-0.162-0.065-0.173-0.214-0.173-0.258c0-0.044,0.014-0.193,0.176-0.256l18.945-7.427c0.097-0.038,0.201-0.021,0.28,0.046  c0.079,0.067,0.113,0.167,0.092,0.269L18.263,20.348z" />
+                </svg>
+            </a></li>
+    </ul></div>
+
+<div class="right-section">
+    <ul class="right-section-list list-reset flex">
+        <li class="right-section__item"><a
+                class="right-section__link"
+                href="tel:+79273051285" target="blank">+7 (927)
+                305-12-85</a></li>
+        <li class="right-section__item">Пн-Пт 9 : 00 - 18 :
+            00</li>
+        <li class="right-section__item"><a
+                class="right-section__link"
+                href="mailto:aprogger@mail.ru" target="blank">aprogger@mail.ru</a></li>
+<!--                        <li> <div class="flex column"><button id="darkThemeButton">Тёмная</button>-->
+<!--<button id="lightThemeButton">Светлая</button> </div></li>-->
+    </ul>
+</div></div>
+                </div>
+            </div>
+        </nav>
+        <main class="main">
+            <section class="hero mb-50">
+                <div class="container">
+                    <h1 class="visually-hidden">Разработчик сайтов на HTML, PHP,
+                        CSS, JS</h1>
+                    <div class="hero-main flex">
+                        <div class="hero-text">
+                            <h2 class="heading reset-heading mb-20">Разработчик сайтов на HTML, PHP,
+                                CSS, JS</h2>
+                            <p class="description descr-reset">Создаю эффектные сайты с
+                                высокой конверсией</p>
+                        </div>
+                        <img class="hero-img" src="access/img/hero-1.jpg"
+                            alt="Изображение автора">
+                    </div>
+                </div>
+            </section>
+            <section class="about mb-50">
+                <div class="container">
+                    <div class="about-main flex">
+                        <img class="about-img" src="access/img/crt.png"
+                            alt="Изображение автора">
+                        <div class="about-text">
+                            <h2 class="about-heading reset-heading mb-20" id = "about">Немного обо мне</h2>
+                            <p class="about-descr descr-reset mb-20">Привет! Меня зовут Александр,
+                                я живу в Сибае, создаю
+                                лендинги и многостраничники на заказ. Меня
+                                заинтересовала Frontend разработка, потому что
+                                есть возможность экспериментировать, создавать
+                                красивые сайты, создавать понятные интерфейсы.
+                                Качественно выполняю поставленные задачи, не
+                                боюсь новых и сложных задач. Напишите мне, если
+                                ищете разработчика для своего нового проекта или
+                                хотите обсудить будущее Вашего текущего
+                                сайта.</p>
+                            <ul class="list-reset flex">
+                                <li class="about-list__item"><span
+                                        class="about-list__item-number">15</span>
+                                    проектов</li>
+                                <li class="about-list__item"><span
+                                        class="about-list__item-number">5</span>
+                                   лет в разработке</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="price mb-50">
+                <div class="container">
+                    <div class="price-wrapp">
+                        <h2 class="price-heading reset-heading mb-20" id = "price">Заказать услуги разработчика
+                            сайтов</h2>
+                        <p class="price-descr descr-reset mb-20">Я — специалист по созданию сайтов
+                            на HTML,CSS, PHP, JS который умеет делать все из того, что
+                            было перечислено выше. Если вам нужно сделать заказ
+                            на готовый макет, я готов взяться за
+                            это дело.</p>
+                        <p class="price-descr descr-reset mb-20">Я имею большой опыт работы
+                             и знаю все тонкости сайтов.
+                            Я предлагаю разработку сайтов, а
+                            также создание лендингов или многостраничных.</p>
+                        <p class="price-descr descr-reset mb-20">Стоимость моей работы
+                            коррелируется с качеством проработки сайтов. Цена
+                            будет зависеть от сложности задачи и объема работы.
+                            Укажите, пожалуйста, в ТЗ все требования и
+                            предпочтения, чтобы я мог более точно оценить
+                            стоимость работ, учитывая данные требования.</p>
+                        <p class="price-descr descr-reset mb-20">Если у вас есть дополнительные
+                            пожелания или политика конфиденциальности, которую
+                            нужно соблюдать во время разработки сайтов,
+                            пожалуйста, расскажите мне об этом. Я могу сделать верстку как лендинга, так
+                            многостраничного сайта.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="servise mb-50">
+                <div class="container">
+                    <div class="servise-wrapp">
+                        <h2 class="servise-heading reset-heading mb-20">Мои услуги включают в
+                            себя</h2>
+                        <ul class="list-reset mb-50 a-center">
+                            <li class="servise-list__item"><?xml version="1.0"
+                                encoding="UTF-8"?>
+                                <svg class="servise__icon" width="30px"
+                                    height="30px"
+                                    viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m 3 0 c -1.644531 0 -3 1.355469 -3 3 v 10 c 0 1.644531 1.355469 3 3 3 h 10 c 1.644531 0 3 -1.355469 3 -3 v -10 c 0 -1.644531 -1.355469 -3 -3 -3 z m 0 2 h 10 c 0.421875 0 0.765625 0.234375 0.917969 0.585938 l -0.667969 0.757812 l -6.296875 7.195312 l -2.246094 -2.246093 c -0.390625 -0.390625 -1.023437 -0.390625 -1.414062 0 s -0.390625 1.027343 0 1.417969 l 3 3 c 0.410156 0.40625 1.078125 0.386718 1.460937 -0.050782 l 6.246094 -7.136718 v 7.476562 c 0 0.570312 -0.429688 1 -1 1 h -10 c -0.570312 0 -1 -0.429688 -1 -1 v -10 c 0 -0.570312 0.429688 -1 1 -1 z m 0 0"
+                                        fill="#8c65ff" />
+                                </svg>Разработку блоков сайта,
+                                учитывая все ваши пожелания и требования для
+                                страницы.</li>
+                            <li class="servise-list__item"><?xml version="1.0"
+                                encoding="UTF-8"?>
+                                <svg class="servise__icon" width="30px"
+                                    height="30px"
+                                    viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path width="30px"
+                                    height="30px"
+                                        d="m 3 0 c -1.644531 0 -3 1.355469 -3 3 v 10 c 0 1.644531 1.355469 3 3 3 h 10 c 1.644531 0 3 -1.355469 3 -3 v -10 c 0 -1.644531 -1.355469 -3 -3 -3 z m 0 2 h 10 c 0.421875 0 0.765625 0.234375 0.917969 0.585938 l -0.667969 0.757812 l -6.296875 7.195312 l -2.246094 -2.246093 c -0.390625 -0.390625 -1.023437 -0.390625 -1.414062 0 s -0.390625 1.027343 0 1.417969 l 3 3 c 0.410156 0.40625 1.078125 0.386718 1.460937 -0.050782 l 6.246094 -7.136718 v 7.476562 c 0 0.570312 -0.429688 1 -1 1 h -10 c -0.570312 0 -1 -0.429688 -1 -1 v -10 c 0 -0.570312 0.429688 -1 1 -1 z m 0 0"
+                                        fill="#8c65ff" />
+                                </svg>Создание структуры сайта и наполнение его
+                                страниц и блоков информацией по согласованному
+                                прототипу из вашего макета.</li>
+                            <li class="servise-list__item"><?xml version="1.0"
+                                encoding="UTF-8"?>
+                                <svg class="servise__icon" width="30px"
+                                    height="30px"
+                                    viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m 3 0 c -1.644531 0 -3 1.355469 -3 3 v 10 c 0 1.644531 1.355469 3 3 3 h 10 c 1.644531 0 3 -1.355469 3 -3 v -10 c 0 -1.644531 -1.355469 -3 -3 -3 z m 0 2 h 10 c 0.421875 0 0.765625 0.234375 0.917969 0.585938 l -0.667969 0.757812 l -6.296875 7.195312 l -2.246094 -2.246093 c -0.390625 -0.390625 -1.023437 -0.390625 -1.414062 0 s -0.390625 1.027343 0 1.417969 l 3 3 c 0.410156 0.40625 1.078125 0.386718 1.460937 -0.050782 l 6.246094 -7.136718 v 7.476562 c 0 0.570312 -0.429688 1 -1 1 h -10 c -0.570312 0 -1 -0.429688 -1 -1 v -10 c 0 -0.570312 0.429688 -1 1 -1 z m 0 0"
+                                        fill="#8c65ff" />
+                                </svg>Настройку хостинга и его запуск</li>
+                            <li class="servise-list__item"><?xml version="1.0"
+                                encoding="UTF-8"?>
+                                <svg class="servise__icon" width="30px"
+                                    height="30px"
+                                    viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m 3 0 c -1.644531 0 -3 1.355469 -3 3 v 10 c 0 1.644531 1.355469 3 3 3 h 10 c 1.644531 0 3 -1.355469 3 -3 v -10 c 0 -1.644531 -1.355469 -3 -3 -3 z m 0 2 h 10 c 0.421875 0 0.765625 0.234375 0.917969 0.585938 l -0.667969 0.757812 l -6.296875 7.195312 l -2.246094 -2.246093 c -0.390625 -0.390625 -1.023437 -0.390625 -1.414062 0 s -0.390625 1.027343 0 1.417969 l 3 3 c 0.410156 0.40625 1.078125 0.386718 1.460937 -0.050782 l 6.246094 -7.136718 v 7.476562 c 0 0.570312 -0.429688 1 -1 1 h -10 c -0.570312 0 -1 -0.429688 -1 -1 v -10 c 0 -0.570312 0.429688 -1 1 -1 z m 0 0"
+                                        fill="#8c65ff" />
+                                </svg>Продвижение сайта в поисковых
+                                системах.</li>
+                        </ul>
+
+                        <p class="servise__descr descr-reset mb-20">С каждым заказчиком я
+                            составляю договор. В нем я прописываю гарантии,
+                            которые даю на всех этапах рабочего процесса. Также
+                            в договоре прописано, какие решения будут воплощены
+                            уже в первый месяц и так далее. Готов обсудить все
+                            детали и сделать процесс максимально простым для
+                            вас.</p>
+                        <p class="servise__descr descr-reset mb-20">Гарантирую выполнение всех
+                            работ в установленный срок и за предварительно
+                            оговоренную стоимость. Обратившись ко мне за помощью
+                            в разработке сайтаы получите
+                            профессиональную поддержку на всех этапах работ. С
+                            нетерпением жду вашего заказа. Оставьте заявку и
+                            свой номер, и я свяжусь с вами в удобное для вас
+                            время, чтобы начать сотрудничество.</p>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="cards mb-50">
+                <div class="container">
+                    <div class="cards-wrapper">
+                        <div class="cards-wrap flex space-between">
+                            <div class="card__block">
+                                <h3 class="cards__heading reset-heading mb-20">Лендинг</h3>
+                                <p class="cards__description descr-reset">Отличается
+                                    повышенным вниманием к своим дизайну и
+                                    текстам, ведь его задача — побудить
+                                    пользователя
+                                    к взаимодействию.</p>
+                                <a class="card__link" href="https://aprogger.ru/post/landing" target="blank">Подробнее</a>
+                            </div>
+                            <div class="card__block">
+                                <h3 class="cards__heading reset-heading mb-20">Многостраничник</h3>
+                                <p class="cards__description descr-reset">Разнообразие контента и сохранение
+                                    эффективности дизайна и навигации.</p>
+                                <a class="card__link" href="https://aprogger.ru/post/multi-page" target="blank">Подробнее</a>
+                            </div>
+                            <div class="card__block">
+                                <h3 class="cards__heading reset-heading mb-20">Корпоративный</h3>
+                                <p class="cards__description descr-reset">Важнейшая
+                                    составляющая имиджа бренда, его лицо
+                                    для клиентов и партнеров — эффективность
+                                    всех
+                                    составляющих визуального и текстового
+                                    оформления
+                                    должна быть максимальной.</p>
+                                <a class="card__link" href="https://aprogger.ru/post/corp" target="blank">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="message mb-50">
+                <div class="container">
+                    <div class="message-wrap">
+                        <h2 class="message-heading reset-heading mb-20" id = "contacts">Давайте обсудим ваш
+                            проект</h2>
+                        <div class="message-right-sect">
+                            <h3 class="message-header reset-heading mb-20">Мессенджеры</h3>
+                            <ul class="list-reset">
+                                <li class="message__item">
+                                    <?xml version="1.0" encoding="UTF-8"?> <svg class="message__icon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="35" height="35"
+                                        viewBox="0 0 206 206" fill="none"> <path
+                                            d="M103 0C75.6889 0 49.4722 10.8585 30.1758 30.1677C10.8595 49.4847 0.00535069 75.6822 0 103C0 130.306 10.8633 156.523 30.1758 175.832C49.4722 195.142 75.6889 206 103 206C130.311 206 156.528 195.142 175.824 175.832C195.137 156.523 206 130.306 206 103C206 75.6937 195.137 49.477 175.824 30.1677C156.528 10.8585 130.311 0 103 0Z"
+                                            fill="url(#paint0_linear_4_67)"></path>
+                                        <path
+                                            d="M46.6236 101.912C76.6545 88.8311 96.6752 80.2064 106.685 76.0397C135.3 64.1416 141.239 62.0752 145.117 62.0052C145.97 61.9915 147.869 62.2023 149.109 63.2042C150.139 64.0491 150.428 65.1918 150.573 65.994C150.702 66.7955 150.879 68.6221 150.734 70.048C149.189 86.3349 142.478 125.858 139.066 144.1C137.634 151.819 134.785 154.407 132.033 154.659C126.046 155.21 121.508 150.707 115.714 146.91C106.653 140.967 101.535 137.268 92.7322 131.47C82.561 124.768 89.1594 121.085 94.9531 115.065C96.466 113.49 122.828 89.5183 123.326 87.344C123.391 87.072 123.455 86.0581 122.844 85.5238C122.248 84.9879 121.363 85.1713 120.719 85.3162C119.802 85.5222 105.334 95.0947 77.2661 114.032C73.1622 116.855 69.4445 118.231 66.097 118.159C62.4277 118.08 55.3464 116.079 50.0838 114.37C43.6463 112.273 38.5124 111.164 38.963 107.603C39.1883 105.749 41.7472 103.851 46.6236 101.912Z"
+                                            fill="white"></path> <defs>
+                                            <lineargradient
+                                                id="paint0_linear_4_67"
+                                                x1="10300" y1="0" x2="10300"
+                                                y2="20600"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop
+                                                    stop-color="#2AABEE"></stop>
+                                                <stop offset="1"
+                                                    stop-color="#229ED9"></stop>
+                                            </lineargradient> </defs> </svg> <a class="message__link"
+                                        href="https://t.me/a_arbuzov1503" target="blank">Telegram</a></li>
+                                <li class="message__item">
+                                    <?xml version="1.0" encoding="UTF-8"?> <svg class="message__icon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="35" height="35"
+                                        viewBox="0 0 206 206" fill="none"> <path
+                                            d="M175.98 29.9735C166.489 20.435 155.185 12.8722 142.726 7.72612C130.268 2.58008 116.904 -0.0461451 103.414 0.000613565C46.8935 0.000613565 0.828142 45.8355 0.828142 102.073C0.828142 120.098 5.58995 137.608 14.4925 153.058L0 206L54.3467 191.786C69.3568 199.923 86.2301 204.249 103.414 204.249C159.935 204.249 206 158.414 206 102.176C206 74.8814 195.338 49.2345 175.98 29.9735ZM103.414 186.945C88.0935 186.945 73.0834 182.825 59.9367 175.1L56.8311 173.246L24.5337 181.692L33.1256 150.38L31.0553 147.187C22.5435 133.663 18.0239 118.03 18.0121 102.073C18.0121 55.3114 56.3136 17.2016 103.311 17.2016C126.084 17.2016 147.513 26.0595 163.558 42.1275C171.503 49.9963 177.799 59.3559 182.081 69.6637C186.364 79.9715 188.547 91.0226 188.506 102.176C188.713 148.938 150.411 186.945 103.414 186.945ZM150.204 123.497C147.616 122.261 134.987 116.081 132.71 115.154C130.329 114.33 128.672 113.918 126.913 116.39C125.153 118.965 120.287 124.733 118.838 126.381C117.389 128.132 115.836 128.338 113.248 126.999C110.66 125.763 102.379 122.982 92.6482 114.33C84.9879 107.532 79.9156 99.1893 78.3628 96.6143C76.9136 94.0393 78.1558 92.7003 79.5015 91.3613C80.6402 90.2283 82.0894 88.3743 83.3317 86.9323C84.5739 85.4904 85.0915 84.3574 85.9196 82.7094C86.7477 80.9584 86.3337 79.5164 85.7126 78.2804C85.0914 77.0444 79.9156 64.4784 77.8452 59.3284C75.7749 54.3845 73.601 55.0025 72.0482 54.8995H67.0794C65.3196 54.8995 62.6281 55.5174 60.2472 58.0924C57.9698 60.6674 51.3447 66.8474 51.3447 79.4134C51.3447 91.9793 60.5578 104.133 61.8 105.781C63.0422 107.532 79.9156 133.282 105.588 144.303C111.695 146.981 116.457 148.526 120.184 149.659C126.291 151.616 131.881 151.307 136.333 150.689C141.301 149.968 151.55 144.509 153.62 138.535C155.794 132.561 155.794 127.514 155.069 126.381C154.345 125.248 152.792 124.733 150.204 123.497Z"
+                                            fill="#4ECB71"></path> </svg> <a class="message__link"
+                                        href="https://wa.me/9273051285" target="blank">WhatsApp</a></li>
+                                <li class="message__item">
+                                    <?xml version="1.0" encoding="UTF-8"?> <svg class="message__icon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="35" height="35"
+                                        viewBox="0 0 25 20" fill="none"> <path
+                                            d="M21.5461 0C23.4539 0 25 1.56667 25 3.5V16.5C25 18.4333 23.4539 20 21.5461 20H3.45395C2.5379 20 1.65938 19.6313 1.01164 18.9749C0.363897 18.3185 0 17.4283 0 16.5V3.5C0 1.56667 1.54605 0 3.45395 0H21.5461ZM23.3553 6.234L12.8961 12.0633C12.7884 12.1233 12.6689 12.1581 12.5463 12.1651C12.4237 12.1721 12.3011 12.1513 12.1875 12.104L12.1039 12.064L1.64474 6.23333V16.5C1.64474 16.9862 1.83535 17.4525 2.17464 17.7964C2.51393 18.1402 2.97411 18.3333 3.45395 18.3333H21.5461C22.0259 18.3333 22.4861 18.1402 22.8254 17.7964C23.1646 17.4525 23.3553 16.9862 23.3553 16.5V6.234ZM21.5461 1.66667H3.45395C2.97411 1.66667 2.51393 1.85982 2.17464 2.20364C1.83535 2.54745 1.64474 3.01377 1.64474 3.5V4.33267L12.5 10.382L23.3553 4.332V3.5C23.3553 3.01377 23.1646 2.54745 22.8254 2.20364C22.4861 1.85982 22.0259 1.66667 21.5461 1.66667Z"
+                                            fill="white"></path> </svg> <a class="message__link"
+                                        href="mailto:aprogger@mail.ru" target="blank">E -
+                                        mail</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="jobs">
+                <div class="container">
+                    <h2
+                        class="title jobs__heading site-heading reset-heading mb-50">Примеры
+                        работ</h2>
+                    <div class="flex-servise">
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img"
+                                src="https://aprogger.ru/access/img/img/servises/bookmark.png" alt="Service 1">
+                            <h3>Сервис хранения закладок</h3>
+                            <p>4 500 ₽</p>
+                            <a href="https://app.aprogger.ru/bookmap/index"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img"
+                                src="https://aprogger.ru/access/img/img/servises/ya-go-scooter.png"
+                                alt="Service 1">
+                            <h3>Яндекс GO</h3>
+                            <p>5 000 ₽</p>
+                            <a
+                                href="https://aprogger.ru/project/ya-go-scooter/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img"
+                                src="https://aprogger.ru/access/img/img/servises/11.png" alt="Service 1">
+                            <h3>Сайт визитка с ссылками</h3>
+                            <p>5 000</p>
+                            <a href="#"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img"
+                                src="https://aprogger.ru/access/img/img/servises/10.png" alt="Service 1">
+                            <h3>QR Генератор</h3>
+                            <p>4 000 ₽</p>
+                            <a href="https://app.aprogger.ru/qr/create"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img"
+                                src="https://aprogger.ru/access/img/img/servises/10.png" alt="Service 1">
+                            <h3>Агрегатор сервисов</h3>
+                            <p>6 000 ₽</p>
+                            <a
+                                href="https://aprogger.ru/project/agr/public_html/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img" src="https://aprogger.ru/access/img/img/servises/9.png"
+                                alt="Service 1">
+                            <h3>Сайт собирающий заявки</h3>
+                            <p>6 000 ₽</p>
+                            <a href="https://aprogger.ru/project/travel/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img" src="https://aprogger.ru/access/img/img/servises/8.png"
+                                alt="Service 2">
+                            <h3>Картинная галерея</h3>
+                            <p>5 000 ₽</p>
+                            <a href="https://aprogger.ru/project/Gallery/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img" src="https://aprogger.ru/access/img/img/servises/7.png"
+                                alt="Service 2">
+                            <h3>Путешествия</h3>
+                            <p>5 000 ₽</p>
+                            <a
+                                href="https://aprogger.ru/project/petersburg-travel/public_html/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img" src="https://aprogger.ru/access/img/img/servises/6.png"
+                                alt="Service 2">
+                            <h3>Курсы Скиллбокс</h3>
+                            <p>5 000 ₽</p>
+                            <a
+                                href="https://aprogger.ru/project/skillbox/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img" src="https://aprogger.ru/access/img/img/servises/5.png"
+                                alt="Service 3">
+                            <h3>Криптостикеры</h3>
+                            <p>5 000 ₽</p>
+                            <a href="https://aprogger.ru/project/aura/index.html" target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img" src="https://aprogger.ru/access/img/img/servises/4.png"
+                                alt="Service 3">
+                            <h3>Сайт визитка</h3>
+                            <p>3 000 ₽</p>
+                            <a
+                                href="https://aprogger.ru/project/leanding-site/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img" src="https://aprogger.ru/access/img/img/servises/3.png"
+                                alt="Service 3">
+                            <h3>Сайт отелей</h3>
+                            <p>5 000 ₽</p>
+                            <a
+                                href="https://aprogger.ru/project/Lagoona-new/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img" src="https://aprogger.ru/access/img/img/servises/2.png"
+                                alt="Service 3">
+                            <h3>Проетные решения</h3>
+                            <p>5 000 ₽</p>
+                            <a
+                                href="https://aprogger.ru/project/evklug/public_html/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+
+                        <div class="jobs-card flex-grid">
+                            <img class="jobs-card__img" src="https://aprogger.ru/access/img/img/servises/1.png"
+                                alt="Service 3">
+                            <h3>Отели</h3>
+                            <p>5 500 ₽</p>
+                            <a
+                                href="https://aprogger.ru/project/Lagoona-site/index.html"
+                                target="blank">Посмотреть</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id= "contacts" class="footer">
+            <div class="container container-footer">
+                <div class="footer__nav">
+                    <div class="footer__img-wrap">
+                        <a href="https://aprogger.ru" class="footer__logo">
+                            <img class="header__img footer__logo"
+                                src="access/img/Frame 4.svg" alt="Логотип"></a>
+                    </div>
+
+                    <ul class="footer__list list-reset">
+                        <li class="footer__list-item"><a target="blanck"
+                                aria-label="Заполнить бриф"
+                                class="footer__item"
+                                href="https://disk.yandex.ru/i/H7hz7BtxvD_Q1A">Заполнить бриф</a></li>
+                        <li class="footer__list-item"><a target="blanck"
+                                aria-label="Перейти в телеграмм"
+                                class="footer__item"
+                                href="https://t.me/a_arbuzov1503">Telegram</a></li>
+                        <li class="footer__list-item"><a target="blanck" aria-label="Githab"
+                                class="footer__item"
+                                href="https://github.com/aarbuzov1503">Githab</a></li>
+                        <li class="footer__list-item"><a target="blanck"
+                                aria-label="Skillbox скидка 50%"
+                                class="footer__item"
+                                href="https://go.redav.online/bef771b99a05d191?erid=LdtCKL1wM">Skillbox
+                                скидка 50%</a></li>
+                        <li class="footer__list-item"><a target="blanck"
+                                aria-label="Бонус за приобретение хостинга"
+                                class="footer__item"
+                                href="https://timeweb.com/ru/services/hosting?utm_source=cl92747&utm_medium=timeweb&utm_campaign=timeweb-bring-a-friend">Бонус
+                                за приобретение хостинга</a></li>
+                                 <li class="footer__list-item"><a target="blanck"
+                                aria-label="Заказать карту для своих Альфа банк"
+                                class="footer__item"
+                                href="https://aprogger.ru/card">Заказать карту для своих Альфа банк</a></li>
+<li class="footer__list-item"><a target="blanck"
+                                aria-label="CRM система"
+                                class="footer__item"
+                                href="https://salesrender.com/?connection=1270249305">CRM система</a></li>
+                                
+                    </ul>
+
+                    <ul class="footer__contacts list-reset">
+                        <li class="footer__contacts-item"><a
+                                aria-label="Вконтакте"
+                                class="footer__social-link"
+                                href="https://vk.com/a_arbuzov1503"
+                                target="blank"><svg class="footer__social-icon"
+                                    width="60" height="60" viewBox="0 0 60 60"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="footer__social-ico"
+                                        d="M30 0C13.432 0 0 13.4314 0 30C0 46.5686 13.432 60 30 60C46.568 60 60 46.5686 60 30C60 13.4314 46.568 0 30 0ZM45.2176 33.2446C46.6159 34.6103 48.0951 35.8957 49.3504 37.4026C49.9065 38.0692 50.4307 38.7585 50.8297 39.5337C51.3993 40.6392 50.8849 41.8515 49.8954 41.9171L43.7494 41.9159C42.162 42.0473 40.8988 41.4071 39.8339 40.3218C38.9837 39.457 38.195 38.5332 37.3762 37.6389C37.0416 37.2718 36.6893 36.9262 36.2695 36.6543C35.4316 36.1093 34.7036 36.2762 34.2236 37.1515C33.7344 38.0421 33.6227 39.0292 33.5761 40.0205C33.5092 41.4697 33.0721 41.8484 31.618 41.9165C28.5109 42.062 25.5628 41.5906 22.8227 40.0241C20.4055 38.6425 18.5346 36.6924 16.9043 34.4845C13.7297 30.1805 11.2984 25.4566 9.11386 20.597C8.6222 19.5026 8.98189 18.917 10.1893 18.8943C12.1952 18.8557 14.2011 18.8606 16.2071 18.8925C17.0234 18.9054 17.5636 19.3725 17.8772 20.1428C18.9612 22.8098 20.2901 25.3473 21.9554 27.7007C22.3992 28.3274 22.8522 28.9522 23.4973 29.3948C24.2093 29.8834 24.7519 29.7219 25.0877 28.9271C25.3025 28.4219 25.3952 27.8817 25.4418 27.3404C25.6014 25.486 25.6205 23.6323 25.3442 21.7854C25.1724 20.6296 24.5224 19.8832 23.3702 19.6647C22.7834 19.5536 22.8694 19.3363 23.1548 19.0011C23.6501 18.4217 24.1142 18.0632 25.0416 18.0632L31.9857 18.062C33.0801 18.2768 33.3256 18.7679 33.4742 19.8703L33.4803 27.5871C33.4674 28.0137 33.6945 29.2782 34.4606 29.5574C35.0744 29.76 35.4795 29.2677 35.8465 28.8792C37.5118 27.112 38.6983 25.0263 39.7608 22.8675C40.2298 21.9155 40.6343 20.9303 41.0271 19.9433C41.3193 19.2135 41.7735 18.8544 42.5972 18.8667L49.2841 18.8747C49.4811 18.8747 49.6812 18.8765 49.8764 18.9103C51.0034 19.103 51.3121 19.5879 50.9635 20.6873C50.4147 22.4145 49.3485 23.8533 48.3063 25.2958C47.1892 26.8401 45.9977 28.3304 44.8917 29.8815C43.8752 31.2994 43.9556 32.0133 45.2176 33.2446Z"
+                                        fill="#666666" />
+                                </svg>
+                            </a></li>
+                    </ul>
+
+                </div>
+                <div class="footer__application">
+                    <h3 class="footer__title reset-heading">Оставьте
+                        заявку!</h3>
+                    <form class="footer__form"  method="POST">
+                        <input required aria-label="Имя"
+                            class="footer__form-info name" type="text"
+                            name="name" placeholder="Имя*">
+                        <input required aria-label="Телефон"
+                            class="footer__form-info name" type="phone"
+                            name="phone" placeholder="Телефон*">
+                        <input required aria-label="Электронная почта"
+                            class="footer__form-info mail" type="email"
+                            name="email" placeholder="E-mail*">
+                        <textarea required aria-label="Текст сообщения"
+                            class="footer__form-message" name="text"
+                            placeholder="Введите текст|"></textarea>
+                        <div class="footer__blog-consent">
+                                <button aria-label="Отправить"
+                                    class="footer__send-btn"
+                                    type="submit">Отправить заявку</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="cookie_notification">
+                <p>На сайте происходит сбор и обработка обезличенных данных
+                    о посетителях (в т.ч. файлов «cookie») с помощью
+                    сервисов интернет-статистики (Яндекс Метрика и Google
+                    Аналитика и других). Продолжая
+                    работу с сайтом, Вы разрешаете использование
+                    cookie-файлов. Вы всегда можете отключить файлы cookie в
+                    настройках Вашего браузера. <a class="footer__item"
+                        href="https://ya.ru"> Вы можете покинуть сайт</a>
+                </p>
+                <button class="btn-notification cookie_accept">Принять</button>
+            </div>
+        </footer>
+    </body>
+</html>
